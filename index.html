@@ -5,6 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <title>Cube</title>
 
+    <meta name="author" content="Jake D'Esposito">
+
     <script id="vertex-shader" type="x-shader/x-vertex">
                 attribute vec4 myPosition;
                 attribute vec3 myNormal;
@@ -90,15 +92,18 @@
 
 </head>
 
-<body>
+<body style="background-color: gray;">
     <canvas id="gl-canvas" width="512" height="512"></canvas><br />
-    <button id="rotX">Rotate X</button>
-    <button id="rotY">Rotate Y</button>
-    <button id="rotZ">Rotate Z</button>
-    <button id="transX">Translate X</button>
-    <button id="transY">Translate Y</button>
-    <button id="scaleX">Scale X</button>
-    <button id="scaleY">Scale Y</button>
+    <h2>Controls</h2>
+    <h3>Translation</h3>
+    <p>WASD for moving up left down right.</p>
+    <h3>Rotation</h3>
+    <p>Q and E for y axis rotations.</p>
+    <p>R and F for x axis rotations.</p>
+    <p>Z and X for z axis rotations.</p>
+    <h3>Scale</h3>
+    <p>Shift and Control for y axis scaling.</p>
+    <p>1 and 2 for x axis scaling.</p>
 </body>
 
 </html>
